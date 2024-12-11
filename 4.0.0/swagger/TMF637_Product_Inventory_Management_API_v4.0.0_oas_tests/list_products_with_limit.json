@@ -1,0 +1,30 @@
+{
+    "http-request": {
+        "path": "/product",
+        "method": "GET",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Postman-Token": "a61c3430-722d-4a1c-91e1-7ad20c81cfdb",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive"
+        },
+        "query": {
+            "limit": 1,
+            "offset": 1
+        }
+    },
+    "http-response": {
+        "status": 200,
+        "body": [],
+        "status-text": "OK",
+        "headers": {
+            "X-Total-Count": "0",
+            "X-Result-Count": "0",
+            "Content-Type": "application/json",
+            "Connection": "keep-alive",
+            "Keep-Alive": "timeout=5"
+        }
+    },
+    "name": "list_products_with_limit"
+}

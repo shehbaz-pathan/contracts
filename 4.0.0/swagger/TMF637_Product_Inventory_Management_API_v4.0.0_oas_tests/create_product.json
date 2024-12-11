@@ -1,0 +1,47 @@
+{
+    "http-request": {
+        "path": "/product",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": {
+            "name": "Dal",
+            "status": "created",
+            "productOffering": {
+                "id": "10", "@referredType": "ProductOffering"
+            },
+            "productSpecification": {
+                "id": "10", "@referredType": "ProductSpecification"
+            },
+            "billingAccount": {
+                "id": "10", "@referredType": "BillingAccount"
+            },
+            "relatedParty": [
+                {
+                "id": "10", "@referredType": "RelatedParty"
+                }
+            ],
+            "productCharacteristic": [
+                {
+                    "name": "tags",
+                    "value": {
+                        "tag": "food"
+                    }
+                }
+            ]
+        }
+    },
+    "http-response": {
+        "status": 201,
+        "body": [],
+        "status-text": "OK",
+        "headers": {
+            "X-Total-Count": "0",
+            "X-Result-Count": "0",
+            "Content-Type": "application/json",
+            "Connection": "keep-alive",
+            "Keep-Alive": "timeout=5"
+        }
+    }
+}

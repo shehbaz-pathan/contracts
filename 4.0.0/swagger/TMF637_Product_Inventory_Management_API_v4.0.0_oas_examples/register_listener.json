@@ -1,0 +1,15 @@
+{
+    "http-request": {
+        "path": "/hub",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": {
+            "callback": "http://example.jio.com/callback"
+        }
+    },
+    "http-response": {
+        "status": 201
+    }
+}

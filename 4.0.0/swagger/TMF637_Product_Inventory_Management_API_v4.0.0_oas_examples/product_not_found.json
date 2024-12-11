@@ -1,0 +1,28 @@
+{
+    "http-request": {
+        "path": "/product/55a2163b-489e-4138-93e9-8becb24272f2",
+        "method": "GET",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Postman-Token": "4824a559-785d-46f3-b91f-bc85fe2430d7",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive"
+        },
+        "body": ""
+    },
+    "http-response": {
+        "status": 404,
+        "body": {
+            "code": 60,
+            "reason": "Resource not found",
+            "message": "No resource with given id found"
+        },
+        "status-text": "Not Found",
+        "headers": {
+            "Content-Type": "application/json",
+            "Connection": "keep-alive",
+            "Keep-Alive": "timeout=5"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "http-request": {
+        "path": "/product/non_existent_product_id",
+        "method": "PATCH",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Postman-Token": "4824a559-785d-46f3-b91f-bc85fe2430d7",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive"
+        },
+        "body": {
+            "name": "Rice",
+            "status": "created",
+            "productOffering": {
+                "id": "10", "@referredType": "ProductOffering"
+            },
+            "productSpecification": {
+                "id": "10", "@referredType": "ProductSpecification"
+            },
+            "billingAccount": {
+                "id": "10", "@referredType": "BillingAccount"
+            },
+            "relatedParty": [
+                {
+                "id": "10", "@referredType": "RelatedParty"
+                }
+            ],
+            "productCharacteristic": [
+                {
+                    "name": "tags",
+                    "value": {
+                        "tag": "food"
+                    }
+                }
+            ]
+        }
+    },
+    "http-response": {
+        "status": 404
+    },
+    "name": "PATCH_non_existent_product"
+}

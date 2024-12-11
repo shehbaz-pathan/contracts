@@ -1,0 +1,28 @@
+{
+    "http-request": {
+        "path": "/product",
+        "method": "GET",
+        "query": {
+            "fields": "status"
+        },
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Postman-Token": "b99554c0-9a6f-4983-abc5-ca37bce51cdb",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive"
+        }
+    },
+    "http-response": {
+        "status": 200,
+        "body": [],
+        "status-text": "OK",
+        "headers": {
+            "X-Total-Count": "0",
+            "X-Result-Count": "0",
+            "Content-Type": "application/json",
+            "Connection": "keep-alive",
+            "Keep-Alive": "timeout=5"
+        }
+    }
+}
