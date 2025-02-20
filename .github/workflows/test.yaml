@@ -16,7 +16,7 @@ jobs:
         id: step1
         run: |
           hello="Hello There"
-          echo "result=$hello" >> $GITHUB_OUTPUT
+          echo "result=$hello" >> "$GITHUB_OUTPUT"
 
   job2:
     runs-on: ubuntu-latest
