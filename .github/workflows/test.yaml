@@ -14,7 +14,9 @@ jobs:
     steps:
       - name: Generate Output
         id: step1
-        run: echo "result=Hello World" >> $GITHUB_OUTPUT
+        run: |
+          hello="Hello There"
+          echo "result=$hello" >> $GITHUB_OUTPUT
 
   job2:
     runs-on: ubuntu-latest
