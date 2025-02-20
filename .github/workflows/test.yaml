@@ -21,4 +21,4 @@ jobs:
     needs: job1  # Waits for job1 to complete
     steps:
       - name: Use Output from Job1
-        run: echo "Received value: ${{ needs.job1.outputs.my_value }}"
+        run: echo "Received value - ${{ needs.job1.outputs.my_value }}"
